@@ -1,21 +1,20 @@
 baseURL = ""
 languageCode = "en-us"
-title = "My New Hugo Site"
-
+title = "Vikas Blogs"
 theme = "mainroad"
 
 disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [Author] # Used in authorbox
-  name = "dwDoe"
-  bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+  name = "Vikas Verma"
+  bio = "Passionate developer with 9+ years of development experience. Certified Professional Scrum Master, Blogger. #java #PSM #kotlin #scala #springboot #reactiveProgramming, #functionalProgramming"
   avatar = "img/avatar.jpg"
 
 [Params]
   subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
-  description = "John Doe's Personal blog about everything" # Site description. Used in meta description
-  copyright = "John Doe" # Footer copyright holder, otherwise will use site title
+  description = "Vikas's Personal blog about everything" # Site description. Used in meta description
+  copyright = "Vikas Verma" # Footer copyright holder, otherwise will use site title
   opengraph = true # Enable OpenGraph if true
   schema = true # Enable Schema
   twitter_cards = true # Enable Twitter Cards if true
@@ -44,8 +43,8 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [Params.logo]
   #image = "img/placeholder.png" # Logo image. Path relative to "static"
-  title = "Mainroad" # Logo title, otherwise will use site title
-  subtitle = "Just another site" # Logo subtitle
+  title = "Vikas Verma" # Logo title, otherwise will use site title
+  subtitle = "Blogs related to Java Kotlin and Scala" # Logo subtitle
 
 [Params.sidebar]
   home = "right" # Configure layout for home page
@@ -62,22 +61,22 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [Params.widgets.social]
   # Enable parts of social widget
-  facebook = "username"
-  twitter = "username"
-  instagram = "username"
-  linkedin = "username"
-  telegram = "username"
-  github = "username"
-  gitlab = "username"
-  bitbucket = "username"
-  email = "example@example.com"
+  #facebook = "vikas.on"
+  twitter = "vikas_verma_on"
+  #instagram = "username"
+  linkedin = "vikaskumarverma"
+  #telegram = "username"
+  github = "vikasontech"
+  #gitlab = "username"
+  #bitbucket = "username"
+  email = "vikason[at]gmail[dot]com"
 
 # Custom social links
-[[Params.widgets.social.custom]]
-  title = "Youtube"
-  url = "https://youtube.com/user/username"
-  #icon = "youtube.svg" # Optional. Path relative to "layouts/partials"
+#[[Params.widgets.social.custom]]
+#  title = "Youtube"
+#  url = "https://youtube.com/user/username"
+#  #icon = "youtube.svg" # Optional. Path relative to "layouts/partials"
 
 [[Params.widgets.social.custom]]
-  title = "My Home Page"
-  url = "http://example.com"
+  title = "Home"
+  url = "http://vikasverma.tech"
